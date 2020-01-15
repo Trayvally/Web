@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>图片轮播滚动</title>
+
+	<style type="text/css">
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+			div#img{
+				position: absolute;
+				top:160px;
+				left: 400px;
+			}
+			#uli{
+				position: absolute;
+				top:320px;
+				left:550px;
+			}
+			li{
+				list-style-type: none;
+				width: 20px;
+				background-color:gray;
+				color: white; 
+				margin-left: 17px;
+				float: left;
+				text-align: center;
+			}
+			
+			ul{
+				width: 200px;
+				height: 20px;
+			}
+	</style>
+	
+
+
+
+</head>
+<body>
+	<div id="img" style="width: 400px;height: 300px;">
+		<img id="pictrue" src="../img/1.jpg" alt="" width="400px"  height="200px">
+	</div>
+
+	<div id="uli" style="width: 200px;height: 20px;border: 1px red solid;">
+		<ul>
+			<li>1</li>
+			<li>2</li>
+			<li>3</li>
+			<li>4</li>
+			<li>5</li>
+		</ul>
+	</div>
+	
+
+	<script type="text/javascript">
+		var  count=1;	
+		/*
+			鼠标移动到指定的li上显示指定的图片
+
+		*/
+			var val=document.getElementById("pictrue");
+			
+			var  liList=document.getElementsByTagName("li");		
+
+			function test() {
+				show(count);
+				for (var i = 0; i < liList.length; i++) {
+			
+					liList[i].onmouseover=function(){
+						var  key=this.innerHTML;
+						val.setAttribute("src","../img/"+key+".jpg"); 
+						clearTimeout(timer);
+					}
+					liList[i].onmouseout=function(){	
+						var  key=this.innerHTML;
+
+						show(parseInt(key));
+					}
+				}
+			}
+		var  timer;		
+		
+		function show(num) {
+				count=num;	
+
+			if(count!=6){
+				val.setAttribute("src","../img/"+count+".jpg");  
+			}else{
+				count=0;
+			}
+				count++;
+			timer=setTimeout("show(count)",3000);
+		}
+
+		 window.onload=test();
+
+		 
+
+	</script>
+
+</body>
+</html>

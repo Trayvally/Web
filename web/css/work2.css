@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#mid div{
+			float: left;
+		}
+.head_1{
+	height: 2px;
+}
+.head_2{
+	height: 25px;
+	background-color: lightgray;
+}
+/*.head_3{
+	height: 80px;
+}*/
+/*.head_3_1{
+	width: 30%;height: 100%;
+}
+.head_3_2{
+	width: 40%;height: 100%;
+}
+.head_3_3{
+	width: 30%;height: 100%;
+}*/
+.head_3_2{
+	width: 60%;
+	height: 100%;
+	float: left;
+}
+.head_3_2_1{
+	font-family: '微软雅黑';
+	font-size:30px;
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.head_3_2_2{
+	font-size:30px;
+	width: 30%;
+	height: 100%;
+}
+/*.p1{
+	border:red solid;
+	border-width: 80%; 
+}*/
+.p2{
+	width: 100%;height: 10%;color: white
+}

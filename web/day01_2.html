@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<form action="c.html" method="get" name="form1" autocomplete="on" id="register"> 
+
+<fieldset style="width: 250px;height: 150px;">
+	<legend>账号登陆</legend>
+	<label for="user">账号：
+		<input type="text" name="username" tabindex="2" value="" placeholder="手机/邮箱/账号" required="required">
+	</label>
+	<br>
+	密码：
+	<input type="text" name="password" tabindex="3" value="" placeholder="请输入密码" autofocus><br>
+	验证码：
+	<input type="esecurity_code" name="esecurity_code" tabindex="1" value="" placeholder="请输入验证码">
+	<input type="submit" value="发送验证码">
+	<br>
+	<br>
+	<input type="submit" value="登陆">
+	<input type="submit" value="注册">
+</fieldset>
+
+<fieldset style="width: 250px;height: 150px;">
+	<legend>账号注册</legend>
+	<label for="user">账号：
+		<input type="text" name="username" tabindex="2" value="" placeholder="请输入账号" required="required">
+	</label>
+	<br>
+	密码：
+	<input type="text" name="password" tabindex="3" value="" placeholder="请输入密码" autofocus><br>
+	密码确认：
+	<input type="email" name="email" tabindex="1" value="" placeholder="再次输入密码">
+	<br>
+	<br>
+	<input type="submit" value="注册">
+	<input type="reset" value="重置">
+</fieldset>
+
+	住址：<textarea>输入点什么</textarea>
+	<input type="submit" value="登陆">
+	<input type="reset" value="注册">
+
+<button type="submit" form="register">提交</button>
+<br>
+<br>
+
+<input type="search" name="" value="搜索"><br>
+<input type="number" step="2" min="10" max="130">
+<input type="range" name="" value="0"><br>
+
+<table border="1">
+	<tbody>
+	<tr>
+		<td>姓名</td><td><input type="text" name="username"  colspan="3"></td>
+		<td>性别</td><td><input list="sex"> </td>
+		<datalist id="sex">
+		<option value="男">男</option> 
+		<option value="女">女</option> 
+		</datalist>
+		<td>出生年月</td><td><input type="month"></td>
+		<td rowspan="4" colspan="2"> <input type="file" ></td>
+	</tr>
+	<tr>
+		<td>民族</td><td><input type="text"></td>
+		<td>政治面貌</td><td><input type="text"></td>
+		<td>身高</td><td><input type="number" step="1" min="1" max="250" colspan="3"></td>
+		
+
+	</tr>
+	<tr>
+		<td>学制</td><td><input type="number" step="1" min="1" max="5" colspan="3"></td>
+		<td>学历</td><td><input list="education"> </td>
+		<datalist id="education">
+		<option value="小学">小学</option> 
+		<option value="初中">初中</option> 
+		<option value="高中">高中</option> 
+		<option value="职高">职高</option> 
+		<option value="专科">专科</option> 
+		<option value="二本">二本</option> 
+		<option value="一本">一本</option> 
+		<option value="硕士研究生">硕士研究生</option> 
+		<option value="博士研究生及以上">博士研究生及以上</option> 
+		</datalist>
+		<td>户籍</td><td><input type="text" name="address"  colspan="3"></td></td>
+	</tr>
+	<tr>
+		<td>专业</td><td><input type="text" colspan="3"></td>
+		<td colspan="2">毕业学校</td><td colspan="2"><input type="text" colspan="3"> </td>
+	</tr>
+
+
+	<tr>
+		<td  colspan="7">技能、特长或爱好</td>
+	</tr>
+	<tr>
+		<td>外语等级</td><td><input type="text" colspan="3"> </td>
+		<td>计算机等级</td><td colspan="5"><input type="text" > </td>
+	</tr>
+	<tr>
+		<td colspan="7">个人履历</td>
+	</tr>
+	<tr>
+		<td>时间</td><td colspan="2">单位</td><td colspan="4">经历</td>
+	</tr>
+	<tr>
+		<td></td><td colspan="2"><input type="text" name="address"  colspan="2"></td><td colspan="5"><input type="text" name="experience"  ></td>
+	</tr>
+	<tr>
+		<td></td><td colspan="2"><input type="text" name="address"  colspan="2"></td><td colspan="5"><input type="text" name="experience"  ></td>
+	</tr>
+	<tr>
+		<td></td><td colspan="2"><input type="text" name="address"  colspan="2"></td><td colspan="5"><input type="text" name="experience"  ></td>
+	</tr>
+	<tr>
+		<td colspan="7">联系方式</td>
+	</tr>
+	<tr>
+		<td>通信地址</td><td ><input type="text" > </td>
+		<td>联系电话</td><td colspan="5"><input type="number" > </td>
+	</tr>
+	<tr>
+		<td>E-mail</td><td ><input type="text"  ></td>
+		<td>邮编</td><td colspan="5"><input type="text" > </td>
+	</tr>
+	<tr>
+		<td colspan="7">自我评价</td>
+	</tr>
+	<tr>
+		<td colspan="7">
+			<textarea name="content" rows="10" cols="100"></textarea>
+		</td>
+	</tr>
+
+	<p>.什么是块状元素?什么叫行内元素？什么叫行内块状元素？请分别给这个几个概念说出几个常用元素</p>
+	<p>块状元素，设置宽高无效，对margin仅设置左右方向有效，上下无效，padding设置上下左右都有效，即会撑大空间 
+(3)不会自动进行换行</p>
+<p>块状元素 
+　　块状元素代表性的就是div，其他如p、nav、aside、header、footer、section、article、ul-li、address等等，都可以用div来实现。不过为了可以方便程序员解读代码，一般都会使用特定的语义化标签，使得代码可读性强，且便于查错。 
+块状元素特征： 
+(1)能够识别宽高 
+(2)margin和padding的上下左右均对其有效 
+(3)可以自动换行 
+(4)多个块状元素标签写在一起，默认排列方式为从上至下</p>
+
+	</tbody>
+
+
+</table>
+
+
+</form>
+
+</body>
+</html>
