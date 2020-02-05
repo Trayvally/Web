@@ -1,0 +1,142 @@
+input::-webkit-input-placeholder {
+        color: #AAAAAA;
+  
+    }
+a:focus{
+	outline: none;
+}
+
+.back1{
+	position: absolute;
+	padding-top: 2px;
+	height: 558px;
+	width: 1440px;
+	background: #00B38A;
+}
+.back2{
+	position: absolute;
+	padding-top: 557px;
+	height: 558px;
+	width: 1440px;
+	background: #F0F0F0;
+}
+.TANK{
+	position: absolute;
+	margin-left: 310px;
+	margin-top: 203px;
+	font-family: BanglaMN-Bold;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: right;
+}
+.Bitmap{
+	position: absolute;
+	margin-left: 323px;
+	margin-top: 250px;
+	size: 799px 453px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	border-radius: 2px;
+}
+.jiemian{
+	position: absolute;
+	margin-left: 308px;
+	margin-top: 349px;
+	width: 799px;
+	height: 453px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	border-radius: 2px;
+}
+.QRcode{
+	position: absolute;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.WXlog-in{
+	position: absolute;
+	margin-left: 80px;
+	margin-top: 23px;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #999999;
+	text-align: right;
+}
+.QR{
+	position: absolute;
+	margin-left: 176px;
+	margin-top: 149px;
+}
+.scan{
+	position: absolute;
+	margin-left: 197px;
+	margin-top: 334px;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #666666;
+}
+
+.or{
+	position: absolute;
+	margin-left: 479px;
+	margin-top: 214px;
+	background-color: white;
+	font-family: PingFangSC-Light;
+	font-size: 16px;
+	color: #EDEDED;
+}
+
+.weizhuce{
+	position: absolute;
+	margin-left: 546px;
+	margin-top: 157px;
+	font-family: PingFangSC-Light;
+	font-size: 14px;
+	color: #333333;
+}
+.signup{
+	position: absolute;
+	margin-left: 546px;
+	margin-top: 181px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+}
+.other{
+	position: absolute;
+	margin-left: 546px;
+	margin-top: 258px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #555555;
+}
+
+.wechat{
+	position: absolute;
+	margin-left: 546px;
+	margin-top: 288px;
+}
+.QQ{
+	position: absolute;
+	margin-left: 591px;
+	margin-top: 288px;
+}
+.github{
+	position: absolute;
+	margin-left: 635px;
+	margin-top: 288px;
+}
+.weibo{
+	position: absolute;
+	margin-left: 680px;
+	margin-top: 288px;
+}
+.agreement{
+	position: absolute;
+	margin-left: 90px;
+	margin-top: 363px;
+	font-family: PingFangSC-Regular;
+	font-size: 12px;
+	color: #999999;
+	text-align: right;
+}

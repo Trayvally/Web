@@ -1,0 +1,160 @@
+
+a:focus{
+	outline: none;
+}
+
+input::-webkit-input-placeholder {
+        color: #AAAAAA;
+  
+    }
+
+.back1{
+	position: absolute;
+	padding-top: 2px;
+	height: 558px;
+	width: 1440px;
+	background: #00B38A;
+}
+.back2{
+	position: absolute;
+	padding-top: 557px;
+	height: 558px;
+	width: 1440px;
+	background: #F0F0F0;
+}
+.TANK{
+	position: absolute;
+	margin-left: 310px;
+	margin-top: 203px;
+	font-family: BanglaMN-Bold;
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: right;
+}
+.Bitmap{
+	position: absolute;
+	margin-left: 323px;
+	margin-top: 250px;
+	size: 799px 453px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	border-radius: 2px;
+}
+.jiemian{
+	position: absolute;
+	margin-left: 478px;
+	margin-top: 297px;
+	width: 482px;
+	height: 531px;
+	background: #FFFFFF;
+	border-radius: 2px;
+	border-radius: 2px;
+}
+.returnLogin{
+	position: absolute;
+	margin-left: 269px;
+	margin-top: 27px;
+}
+.passwordFindByEmail{
+	position: absolute;
+	margin-left: 349px;
+	margin-top: 27px;
+}
+.verticleLine{
+	position: absolute;
+	margin-left: 335px;
+	margin-top: 27px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #EDEDED;
+}
+
+.p01{
+	position: absolute;
+	margin-left: 108px;
+	margin-top: 95px;
+}
+.p02{
+	position: absolute;
+	margin-left: 290px;
+	margin-top: 98px;
+}
+.verifyMobile{
+	position: absolute;
+	margin-left: 99px;
+	margin-top: 145px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+	color: #333333;
+}
+.passwordReset{
+	position: absolute;
+	margin-left: 282px;
+	margin-top: 146px;
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+
+}
+
+.line1{
+	position: absolute;
+	margin-left: 175px;
+	margin-top: 122px;
+	width: 106px;
+	height: 2px;
+	border: 0.5px solid #DDDDDD;
+}
+
+.username{
+	position: absolute;
+	margin-left: 97px;
+	margin-top: 233px;
+}
+
+
+.line5{
+	position: absolute;
+	margin-left: 74px;
+	margin-top: 260px;
+	width: 336px;
+	height: 1px;
+	border: 0.5px solid #EDEDED;
+}
+
+
+.Scode{
+	position: absolute;
+	margin-left: 89px;
+	margin-top: 305px;
+}
+.line6{
+	position: absolute;
+	margin-left: 74px;
+	margin-top: 330px;
+	width: 336px;
+	height: 1px;
+	border: 0.5px solid #EDEDED;
+}
+
+.passwordLogin{
+	position: absolute;
+	margin-left: 74px;
+	margin-top: 357px;
+}
+
+.passwordFind{
+	position: absolute;
+	margin-left: 74px;
+	margin-top: 398px;
+	width: 335px;
+	height: 55px;
+	background: #00B38A;
+	border-radius: 2px;
+	border-radius: 2px;
+	font-family: PingFangSC-Regular;
+	font-size: 16px;
+	text-align: center;
+	line-height: -20px;
+
+}
+
